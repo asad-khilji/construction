@@ -1,0 +1,96 @@
+body{
+    background-color: #eaeaea;
+}
+
+h2{
+    text-align: right;
+    color: #f87800;
+}
+
+header{
+    max-width: 1300px;
+    margin: auto;
+}
+
+nav{
+    text-align: right;
+    padding: 40px;
+    max-width: 1300px;
+    margin: auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f87800;
+    padding: 20px;
+    font-size: large;
+}
+
+nav a:hover{
+    background-color: #f87800;
+    color: white;
+}
+
+main{
+    max-width: 1300px;
+    margin: auto;
+    margin-top: -20px;
+}
+
+.number{
+    background-color: black;
+    color: white;
+}
+
+h3{
+    padding: 10px;
+    min-height: 10px;
+}
+
+section{
+    background-color: white;
+    margin-top: -20px;
+    padding: 10px;
+    margin-bottom: -20px;
+}
+
+section h2{
+    text-align: left;
+    margin-left: 20px;
+}
+
+section p{
+    margin-left: 20px;
+    color: gray;
+}
+
+footer{
+    max-width: 1300px;
+    margin: auto;
+    text-align: right;
+    color: white;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-4{
+    flex-basis: 20%;
+    border: solid 1px black;
+    min-height: 250px;
+}
+
+@media only screen and (max-width: 768px) {
+    .col-4{
+        flex-basis: 50%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .col-4{
+        flex-basis: 100%;
+    }
+}
